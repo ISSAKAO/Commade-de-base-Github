@@ -16,7 +16,9 @@ Cela crée un nouveau sous-répertoire nommé .git qui contient tous les fichier
 Si vous souhaitez commencer à suivre les versions des fichiers existants (contrairement à un répertoire vide), vous devriez probablement commencer par indexer ces fichiers et faire une validation initiale. Vous pouvez réaliser ceci avec une poignée de commandes git add qui spécifient les fichiers que vous souhaitez suivre, suivie d'une validation :
 
   `$ git add *.c`
+  
   `$ git add README`
+  
   `$ git commit –m 'version initiale du projet'`
 
 Nous allons passer en revue ce que ces commandes font dans une petite minute. Pour l'instant, vous avez un dépôt Git avec des fichiers sous gestion de version et une validation initiale.
